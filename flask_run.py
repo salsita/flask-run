@@ -3,7 +3,7 @@
 from __future__ import print_function
 
 __all__ = 'run'.split()
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 def run(create_app, config, description=None, args=None, namespace=None, options=None):
     """Parses commandline options, updates config, creates and runs the application.
@@ -39,7 +39,7 @@ def run(create_app, config, description=None, args=None, namespace=None, options
                 '\n'.join(sorted('  {:<20}  {}'.format(envMap[key], envHelp.get(key, ''))
                 for key in envMap))) if envMap else '',
             '\n\navailable environment configurations (*: active):\n{}'.format(
-                '\n'.join(' {}{}'.format(
+                '\n'.join('{} {}'.format(
                     '*' if envName in c.names else ' ',
                     ' | '.join(c.names)
                 ) for c in configurations)) if configurations else '',

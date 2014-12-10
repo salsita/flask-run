@@ -87,7 +87,7 @@ optional environment variables:
   SECRET_KEY            secret key for signing session cookies
 
 available environment configurations (*: active):
- *dev | development
+* dev | development
   prod | production
   qa | test | testing
   stage | staging
