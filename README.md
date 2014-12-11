@@ -42,7 +42,7 @@ from config import Config
 
 app = None
 
-def create_app(config):
+def create_app(config=Config):
   app = flask.Flask(__name__)
 
   app.config.from_object(config)
