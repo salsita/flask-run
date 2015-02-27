@@ -1,6 +1,6 @@
 # [Flask-Run](https://github.com/salsita/flask-run) <a href='https://github.com/salsita'><img align='right' title='Salsita' src='https://www.google.com/a/cpanel/salsitasoft.com/images/logo.gif?alpha=1' /></a>
 
-Flask-based web application runner
+Flask-based web application runner.
 
 [![Latest Version](https://pypip.in/version/Flask-Run/badge.svg)]
 (https://pypi.python.org/pypi/Flask-Run/)
@@ -97,6 +97,14 @@ available environment configurations (*: active):
 
 ## Changelog
 
-#### 0.1.0
+### 0.1.2
+
+#### Fixes
+
+- Fix package setup to not require dependencies preinstalled.
+
+### 0.1.0
+
+#### Features
 
 * Initial release.

@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
-from flask_run import __version__, __doc__
+import re
+__src__ = file('flask_run.py').read()
+__doc__ = re.search('^(["\']{3})(.*?)\\1', __src__, re.M|re.S).group(2).strip()
+__version__ = re.search('^__version__\s*=\s*(["\'])(.*?)\\1\s*$', __src__, re.M).group(2).strip()
 
 options = dict(
     minver = '2.7',     # Min Python version required.
@@ -31,6 +34,8 @@ properties = dict(
         ],
     packages = [
         ],
+    package_dir = {
+        },
     namespace_packages = [
         ],
     include_package_data = False,

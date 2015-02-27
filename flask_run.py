@@ -1,9 +1,12 @@
-"""Flask-based web application runner."""
+
+"""Flask-based web application runner.
+s
+"""
 
 from __future__ import print_function
 
 __all__ = 'run'.split()
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 
 def run(create_app, config, description=None, args=None, namespace=None, options=None):
     """Parses commandline options, updates config, creates and runs the application.
