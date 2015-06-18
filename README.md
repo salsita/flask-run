@@ -97,6 +97,12 @@ available environment configurations (*: active):
 
 ## Changelog
 
+### 0.1.3
+
+#### Fixes
+
+- Fix package setup on Python 3.
+
 ### 0.1.2
 
 #### Fixes

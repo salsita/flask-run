@@ -3,7 +3,7 @@
 from __future__ import print_function
 
 __all__ = 'run'.split()
-__version__ = '0.1.2'
+__version__ = '0.1.3'
 
 def run(create_app, config, description=None, args=None, namespace=None, options=None):
     """Parses commandline options, updates config, creates and runs the application.
