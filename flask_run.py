@@ -1,7 +1,4 @@
-
-"""Flask-based web application runner.
-s
-"""
+"""Flask-based web application runner."""
 
 from __future__ import print_function
 
