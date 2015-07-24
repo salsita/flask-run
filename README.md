@@ -2,9 +2,9 @@
 
 Flask-based web application runner.
 
-[![Version](https://badge.fury.io/gh/salsita%2Fflask-run.svg)]
+[![Version](https://img.shields.io/github/tag/salsita/flask-run.svg?label=version)]
 (https://github.com/salsita/flask-run/tags)
-[![PyPI package](https://badge.fury.io/py/Flask-Run.svg)]
+[![PyPI package](https://img.shields.io/pypi/v/Flask-Run.svg?label=pypi+package)]
 (https://pypi.python.org/pypi/Flask-Run/)
 [![Downloads](https://img.shields.io/pypi/dm/Flask-Run.svg)]
 (https://pypi.python.org/pypi/Flask-Run/)
